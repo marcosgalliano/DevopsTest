@@ -1,0 +1,33 @@
+.divHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    min-height: 100vh;
+}
+
+.divHome h1{
+    font-weight: 600;
+}
+
+.divHome img{
+    width: 30%;
+    height: 40%;
+}
+
+.divHome button{
+    background-color: rgb(92, 92, 227);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.divHome button:hover{
+    cursor: pointer;
+    background-color: rgb(74, 74, 206);
+}
